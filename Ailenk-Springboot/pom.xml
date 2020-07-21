@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ink.bignose</groupId>
+    <artifactId>springboot-demo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <!-- 聚合工程 -->
+    <modules>
+        <module>quartz-demo</module>
+        <module>easyexcel-demo</module>
+        <module>exception-demo</module>
+        <module>filetransmission-demo</module>
+        <module>shiro-demo</module>
+        <module>redis-demo</module>
+        <module>rocketmq-demo</module>
+        <module>mybatisplus-demo</module>
+        <module>logback-demo</module>
+        <module>thymeleaf-demo</module>
+        <module>webmagic-demo</module>
+        <module>multipledatasources-demo</module>
+        <module>swagger-demo</module>
+        <module>knife4j-demo</module>
+        <module>threadpool-demo</module>
+        <module>elasticsearch-demo</module>
+        <module>kafka-demo</module>
+        <module>aop-demo</module>
+        <module>https-demo</module>
+        <module>docker-demo</module>
+        <module>websocket-demo</module>
+        <module>actuator-demo</module>
+        <module>admin-demo</module>
+    </modules>
+
+</project>
